@@ -1,5 +1,7 @@
 <?php
 
+//the '==' is equal and checks only for equality not identitcal
+
 $a = 5;
 $b = 5;
 
