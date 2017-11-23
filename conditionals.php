@@ -1,8 +1,8 @@
 <?php
 
-//the '==' is equal and checks only for equality not identitcal
+//the '==' is equal and checks only for equality not identicalness (===)
 
-$a = 5;
+$a = 6;
 $b = 5;
 
 if ($a == $b) {
