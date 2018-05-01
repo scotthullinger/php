@@ -1,6 +1,10 @@
 <?php
 
-$files = scandir('data');
+//=========================================
+// LIST DIRECTORIES & FILES
+//=========================================
+
+$files = scandir('directory_name_here');
 
 echo '<ul>';
 foreach ($files as $file) {
