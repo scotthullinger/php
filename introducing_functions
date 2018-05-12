@@ -1,0 +1,21 @@
+<?php
+
+function hello(){
+    echo 'Hello, World!';
+}
+
+
+$current_user = 'Mike';
+
+//anything inside function {} is local and used with the function
+//in order to get something from the outside, use global or arguments
+function is_mike(){
+  global $current_user;
+  if($current_user == 'Mike'){
+    echo 'It is Mike';
+  } else {
+    echo 'Nope, it is not Mike.';
+  }
+}
+
+is_mike();
